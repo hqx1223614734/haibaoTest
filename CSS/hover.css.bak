@@ -1,0 +1,133 @@
+@charset "utf-8";
+/*
+@name:南栀北港
+@time:2018 02 11
+@description:
+*/
+/*--字体hover--*/
+a:hover{
+	color:rgb(219,58,69);
+}
+/*--头部样式开始--*/
+#header .top-nav .change:hover + div.moremsg{
+	transition-delay:0s;
+	top:-50px;
+}
+#header .top-nav .change:hover a{
+	background:url('../images/nav2016-morebg.png') no-repeat center center;
+}
+.ht-search input:focus{
+	outline:none;
+}
+
+/*--头部样式结束--*/
+/*--内容样式开始--*/
+/*--baner样式开始--*/
+#content .swiper-container:hover .swiper-button-prev,#content  .swiper-container:hover .swiper-button-next{
+	right:0px;
+}
+/*--banner样式结束--*/
+/*--rightnow开始--*/
+#content .rightnow .side-info .swiper-container .more-info:hover ul{
+	top:-30px;
+}
+#content .rightnow .side-info .street-pic-liu:hover .more-info{
+	transform:rotateX(0deg);
+}
+#content .rightnow .side-info .street-pic-liu:hover .more-info p.click:hover{
+	color:black;
+	background-color:white;
+}
+#content .rightnow .side-info .swiper-container .swiper-button-prev:hover,#content .rightnow .side-info .swiper-container .swiper-button-next:hover{
+	background-position-y:-72px;
+}
+/*--rightnow结束--*/
+/*--video样式开始--*/
+#content .video .content .c-pic img:hover + .play-icon{
+	background-color:rgba(0,0,0,.7);
+}
+#content .video .content .c-pic img:hover + .play-icon i{
+	border-left-color:rgba(255,255,255,.7);
+}
+/*--video样式结束--*/
+/*--trends样式开始--*/
+#content .trends .right-info li:hover .hidden-info{
+	bottom:10px;
+}
+/*--trends样式结束--*/
+/*exclusive-planning样式开始*/
+#content .exclusive-planning .top-nav .n-list > li:hover:after{
+	transform:rotateY(0deg);
+}
+#content .exclusive-planning .foot-info ul.click:hover li{
+	top:-32px;
+}
+/*exclusive-planning样式结束*/
+/*brands样式开始*/
+#content .brands .side-info li:hover .hidden-info{
+	transform:rotateX(0deg);
+}
+#content .brands .foot-search .search-choice li.brand .content .letter-choose li:hover{
+	background-color:rgb(219,58,69);
+	color:white;
+}
+#content .brands .swiper-container:hover .swiper-button-prev{
+	left:85px;
+	opacity:1;
+}
+#content .brands .swiper-container:hover .swiper-button-next{
+	right:85px;
+	opacity:1;
+}
+/*brands样式结束*/
+/*--accessory样式开始--*/
+#content .accessory .content li:hover .hidden-info{
+	bottom:130px;
+}
+/*--accessory样式结束--*/
+/*--interactive--*/
+.interactive .in-left-info ul li:hover .hidden-info{
+	display:block;
+}
+.interactive .btn .nextpage:hover:after{
+	background-position:-731px -200px;
+}
+.interactive .btn .nextpageup:hover:after{
+	background-position:-731px -250px;
+}
+.interactive .btn .refresh:hover:after{
+	background-position:-731px -298px;
+}
+.interactive .btn .switch:hover:after{
+	background-position:-731px -347px;
+}
+#content .interactive .right-info .swiper-container:hover .swiper-button-prev{
+	left:0px;
+}
+#content .interactive .right-info .swiper-container:hover .swiper-button-next{
+	right:0px;
+}
+/*--notes样式结束--*/
+/*--notes样式结束--*/
+/*--side-anchor-link--*/
+#container .side-anchor-link > a.app:hover,#container .side-anchor-link > a.feedback:hover{
+	background-color:rgb(219,58,69);
+}
+/*--内容样式结束--*/
+/*--footer开始--*/
+#footer .waps:hover + img{
+	opacity:1;
+}
+#footer .waps:hover + .jiepais img{
+	opacity:1;
+}
+#footer .waps:hover:after{
+	display:block;
+}
+#footer .jiepais:hover .roRect{
+	display:block;
+}
+#footer .jiepais .roRect ul:hover li{
+	top:-30px;
+}
+/*--footer结束--*/
